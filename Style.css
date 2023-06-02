@@ -1,11 +1,16 @@
+
+
+h1 { font-size: 40px; background-color: none; margin: 0px;padding: 0px;  color: White;}
+h1 {text-align: center;}
+
 body {background-color: white;}
+
 
 p.a{
     font-style: Italic;}
 
-ol.a{
-    list-style: upper-roman;
-}
+ol.a{list-style: upper-roman;}
+
 
 a{ color:blue}
 
@@ -30,3 +35,40 @@ input[type=submit] {
 
 input[type=submit] :hover{
     background-color: black;}
+
+    .navbar {
+        overflow: hidden;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 30%;
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .navbar a:hover {
+        background: #f1f1f1;
+        color: black;
+      }
+      
+      .navbar a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+
+      .topnav .icon{display:none;}
+      
+      .main {
+        padding: 16px;
+        margin-bottom: 30px;
+      }
+
+      .responsive{width:100%;height:auto;}
