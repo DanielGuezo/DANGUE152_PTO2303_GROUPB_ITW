@@ -1,9 +1,21 @@
 
 
-h1 { font-size: 40px; background-color: none; margin: 0px;padding: 0px;  color: White;}
+h1 { font-size: 40px; background-color: none; margin: 0px;padding: 0px;  color: black;}
 h1 {text-align: center;}
 
-body {background-color: white;}
+body {background-color: white;
+  background-image: url('lum3n--RBuQ2PK_L8-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;}
+
+.avatar{
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: none;
+}
 
 
 p.a{
@@ -72,3 +84,16 @@ input[type=submit] :hover{
       }
 
       .responsive{width:100%;height:auto;}
+
+      aside{
+        width:30%;
+        padding-left:30px;
+        margin-left:30px;
+        padding-top: 20px;
+        margin-top:20px;
+        margin-right: 30px;
+        padding-right: 30px;
+        float: none;
+        background-color: lightgray;}
+
+      
