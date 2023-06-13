@@ -110,4 +110,19 @@ input[type=submit] :hover{
         text-align: center;
         padding: 10px 0;
         font-size: 50px;}
+
+        .flex-container {
+          display: flex;
+          flex-wrap: nowrap;
+          background-color:#FADBD8;
+        }
+        
+        .flex-container > div {
+          background-color: #f1f1f1;
+          width: 50px;
+          margin: 10px;
+          text-align: center;
+          line-height: 40px;
+          font-size: 10px;
+        }
       
